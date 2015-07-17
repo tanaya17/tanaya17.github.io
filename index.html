@@ -1,1 +1,84 @@
-
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Tiffany | Girls Who Code </title>
+		
+		<!-- JQuery specific code -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css"/>
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+		<script>
+			/* use this for jQuery functions */
+		</script>
+		<style>
+			#header{
+				font: 18px "Arial Unicode MS",Times,serif;
+				text-align:center;
+				background-color:#483D8B;
+    			color:white;
+    			padding:5px;
+			}
+			#social{
+    			font: 15px "Helvetica",Times,serif;
+    			line-height:30px;
+    			background-color:#E6E6FA;
+    			height:300px;
+    			width:150px;
+    			float:left;
+    			padding:5px; 
+			}
+			#art{
+				font: 15px "Helvetica",Times,serif;
+				position: relative;
+				left: 100px;
+			} 
+			#footer {
+    			background-color:#483D8B;
+    			color:white;
+    			clear:both;
+    			text-align:center;
+    			padding:5px; 
+			}
+		</style>
+	</head>
+	<body>
+		<!-- First Page -->
+		<div data-role="page" id="home">
+			<div id="header">
+				<h1>Tiffany | girls who code</h1>
+			</div>
+			<div id="social">
+				<b>Social Media Links</b>
+				<p>Instagram <br>
+				<a href="https://instagram.com/tiffany.anaya/"> @tiffany.anaya </a>
+				<p>Facebook<br>
+				<a href="https://www.facebook.com/tiffany.anaya.31?fref=ts"> Tiffany Anaya </a> 
+			</div>
+			<div id="art">
+				<p> <a href="http://www.khanacademy.org/computer-programming/jackson-pollock-tiffanya/6476302820442112"> <img src="images\paint.png" alt"screenshot" height="150" width="150"></img> </a>
+				<p>jackson pollock art
+			</div>
+			<div id="footer">
+				<a href="#about">about me</a>
+			</div>
+		</div>
+		
+		<!-- Second Page -->
+		<div data-role="page" id="about">
+			<div id="header">
+				<h1>Tiffany | girls who code</h1>
+			</div>
+				<label for="select-choice-a" class="select">Custom select menu:</label>
+				<select name="select-choice-a" id="choices" data-native-menu="false">
+					<option>about me</option>
+					<option>background</option>
+					<option>academics</option>
+					<option>goals</option>
+				</select>
+			<div id="footer">
+				<a href="#home">back to home</a>
+			</div>
+		</div>
+	</body>
+</html>
